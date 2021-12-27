@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#0000FF"
+    android:id="@+id/toast_layout">
+
+    <ImageView
+        android:id="@+id/toastIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/movie_icon" />
+
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="영화제목"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/movie_icon" />
+
+</LinearLayout>
